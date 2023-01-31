@@ -7,5 +7,15 @@
 
 .hero-nav { width: 100%; height: 80px; background: #fff; }
 
-.imglogo { width: 200px; margin-left: 50px; margin-top: 15px; }
+.imglogo { width: 200px; margin-left: 100px; margin-top: 15px; }
+
+.banner { width: 100%; height: calc(100vh - 80px); background: #ccc; -o-object-fit: cover; object-fit: cover; }
+
+.banner-img { width: 100%; height: 90%; }
+
+.links { margin-right: 150px; margin-top: 15px; }
+
+.link { margin: 0 20px; text-decoration: none; padding: 10px; color: #fff; background: #636B77; border: 5px solid #636B77; border-radius: 20px; }
+
+.link:hover { color: #636B77; background: #fff; }
 /*# sourceMappingURL=main.css.map */
