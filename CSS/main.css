@@ -5,7 +5,7 @@
 
 .contenedor-nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.hero-nav { width: 100%; height: 80px; background: #fff; }
+.hero-nav { width: 100%; height: 80px; background: linear-gradient(320deg, #0290c0 25%, #22397d 60%); border-bottom: 2px solid #cccc; }
 
 .imglogo { width: 200px; margin-left: 100px; margin-top: 15px; }
 
@@ -13,9 +13,9 @@
 
 .banner-img { width: 100%; height: 90%; }
 
-.links { margin-right: 150px; margin-top: 15px; }
+.links { margin-right: 100px; margin-top: 15px; }
 
-.link { margin: 0 20px; text-decoration: none; padding: 10px; color: #fff; background: #636B77; border: 5px solid #636B77; border-radius: 20px; }
+.link { margin-right: none; padding: 40px; text-decoration: none; color: #fff; font-size: 12px; }
 
-.link:hover { color: #636B77; background: #fff; }
+.link:hover { background: linear-gradient(320deg, #22397d 25%, #0290c0 63%); }
 /*# sourceMappingURL=main.css.map */

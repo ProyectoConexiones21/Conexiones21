@@ -18,7 +18,8 @@
 .hero-nav{
     width: 100%;
     height: 80px;
-    background: #fff;
+    background: linear-gradient(320deg, rgba(2,144,192,1) 25%, rgba(34,57,125,1) 60%);
+    border-bottom: 2px solid #cccc ;
     
 }
 
@@ -40,23 +41,21 @@
 }
 
 .links{
-    margin-right:150px;
+    margin-right:100px;
     margin-top: 15px;
-    
     
 }
 
 .link{
-    margin: 0 20px ;
-    text-decoration: none;
-    padding: 10px;
+    margin-right: none;
+    padding: 40px;
+    text-decoration: none; 
     color: #fff;
-    background: #636B77;
-    border: 5px solid #636B77;
-    border-radius: 20px; 
+   
+    font-size: 12px;
 }
 
 .link:hover{
-    color: #636B77;
-    background: #fff;
+    
+    background: linear-gradient(320deg, rgba(34,57,125,1) 25%, rgba(2,144,192,1) 63%);
 }
