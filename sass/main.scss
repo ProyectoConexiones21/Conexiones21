@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 $gradiente-principal: linear-gradient(to top, #00c6fb 0%, #0042A9 100%);
 $gradiente-secundario: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-$gradiente-banner: linear-gradient(to top, rgba(0, 196, 250, 0.63) 0%, hsla(217, 100%, 33%, 0.63) 100%);
+$gradiente-banner: linear-gradient(to top, rgba(32, 207, 255, 0.63) 0%, hsla(217, 100%, 33%, 0.63) 100%);
+$gradiente-servicio:  linear-gradient(to top, hsla(205, 100%, 42%, 0.65) 0%, hsla(209, 100%, 50%, 0.644) 100%);
 $fuente-principal: 'Noto Sans', sans-serif;
 $fuente-secundaria: 'Dancing Script', cursive;
 *{
@@ -201,7 +202,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
 }
 
 .boton{
-    color: #000000;
+    color: #0042A9;
     text-decoration: none;
     font-family: $fuente-principal;
     font-size: 20px;
@@ -215,7 +216,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
     transition: 0.5s;
 }
 .boton:hover{
-    border: 3px solid #00c5fb;
+    border: 3px solid #eef1f5;
     background: $gradiente-principal;
     box-shadow: 0 0 35px#00c6fb;
     letter-spacing: 4px;
@@ -226,7 +227,71 @@ $fuente-secundaria: 'Dancing Script', cursive;
 .servicios{
     background: $gradiente-principal;
     width: 100%;
-    height: 100vh;
+    height: 210vh;
     display: flex;
     flex-direction: column;
+}
+.text-servicio{
+    color: #ffffff;
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+.servicio-contenedor{
+    width: 100%;
+    height: calc(210vh - 220px) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.servicio-card{
+    background: $gradiente-secundario;
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 40px 100px;
+    width: 50%;
+    box-shadow:  24px 30px 67px -3px rgba(0,0,0,0.2);
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.servicio-card:hover{
+    box-shadow: 0 0 40px  #00c5fb;
+}
+
+.card-contenido{
+    width: 100%;
+}
+
+.titulo-servicio-card{
+    color: #000000;
+    margin: 0px 0 30px 0;
+    font-size: 25px;
+}
+.descripcion-servicio{
+    color: #000000;
+    margin: 20px 0 10px 0;
+    font-size: 25px;
+}
+
+.img-servicio{
+    width: 60%;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 -100px 0 50px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.boton2{
+    color: #eef1f5;
+    border: 3px solid #eef1f5; 
+}
+.boton2:hover{
+    color: #0042A9;
+    border: 3px solid #0042A9;
+    box-shadow: 0 0 35px #eef1f5;
+    background: $gradiente-secundario;
+
 }
