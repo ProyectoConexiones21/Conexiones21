@@ -129,12 +129,11 @@ $fuente-secundaria: 'Dancing Script', cursive;
 
 .productos{
     width: 100%;
-    height: auto;
+    height: 140vh;
     background: $gradiente-secundario;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 40px;
 }
 
 .titulo{
@@ -231,25 +230,22 @@ $fuente-secundaria: 'Dancing Script', cursive;
 .servicios{
     background: $gradiente-principal;
     width: 100%;
-    height: auto;
+    height: 210vh;
     display: flex;
     flex-direction: column;
     margin: 0;
-   
 }
 .text-servicio{
     color: #ffffff;
     text-align: center;
+    margin: 40px 0 20px 0;
 }
-
 .servicio-contenedor{
     width: 100%;
-    height: auto ;
+    height: calc(210vh - 220px) ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 40px;
-    
     
 }
 .servicio-card{
@@ -257,7 +253,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
     display: inherit;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 40px 100px;
     width: 50%;
     box-shadow:  24px 30px 67px -3px rgba(0,0,0,0.2);
@@ -310,8 +306,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
 .social{
     background: $gradiente-secundario;
     width: 100%;
-    height: auto;
-    padding-bottom: 40px;
+    height: 140vh;
     margin: 0;
    display: flex; 
    align-items: center;
@@ -415,7 +410,6 @@ $fuente-secundaria: 'Dancing Script', cursive;
 .img-historia{
     width: 50%;
     height: 100px;
-    margin-left: 10px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
@@ -424,9 +418,8 @@ $fuente-secundaria: 'Dancing Script', cursive;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 70vh;
     background: $gradiente-principal;
-    padding-bottom: 40px;
 }
 
 .footer-contenedor{
@@ -465,10 +458,6 @@ $fuente-secundaria: 'Dancing Script', cursive;
 }
 .redes-text{
     margin: 0 0 20px 0;
-    transition: 0.5s;
-}
-.redes-text:hover{
-    color: #aaaaaa;
 }
 
 .copy{
@@ -478,376 +467,3 @@ $fuente-secundaria: 'Dancing Script', cursive;
     margin: 20px 0;
     text-align: center;
 }
-/*---------------------ESTILOS RESPONSIVE---------------------*/
-@media screen and (max-width:1190px){
-    .hero{
-        height: auto;
-    }
-    .hero-main{
-        height: calc(55vh - 200px);
-    }
-}
-@media screen and (max-width:1189px){
-   /* -------------------------ESTILOS NAV------------------------- */
-   .hero{
-       height: auto;
-   }
-  .hero-main{
-      height: 35vh;
-  }
-    
-   .logo-img{
-        width: 250px;
-    }
-    .links{
-        margin: 60px 100px 0 20px ;
-    }
-    /* ----------------------ESTILOS BANNER---------------------- */
-    .logo-movistar{
-        width: 200px;
-    }
-    
-/* -------------------------ESTILOS MAIN PRODUCTOS------------------------- */
-    .productos{
-        height: auto;
-        padding-bottom: 40px;
-    }
-/* ----------------------ESTILOS MAIN SERVICIOS---------------------- */
-    .servicios{
-        height: auto;
-        
-    }
-    .servicio-contenedor{
-        height: auto;
-        padding-bottom: 40px;
-    }
-    .social{
-        height: auto;
-        padding-bottom: 40px
-    }
-    .footer{
-        height: auto;
-        padding-bottom: 40px;
-    }
-}
-@media screen and (max-width:1089px){
-    /* -------------------------ESTILOS NAV------------------------- */
-    .links{
-        margin: 60px 90px 0 10px ;
-    }
-    .link{
-        margin: 0 8px;
-    }
-}
-@media screen and (max-width:1109px){
-    .links{
-        margin: 60px 80px 0 10px ;
-    }
-    .link{
-        padding: 10px 15px;
-    }
-}
-
-@media screen and (max-width:1037px){
-    .links{
-        margin: 60px 70px 0 10px ;
-    }
-    .logo-img{
-        width: 230px;
-    }
-    .titulo-servicio-card{
-        font-size: 20px;
-    }
-    .descripcion-servicio{
-        font-size: 18px;
-    }
-    .titulo{
-        font-size: 30px;
-        margin: 40px 15px 0 15px ;
-    }
-    .text{
-        font-size: 20px;
-        margin: 20px 15px 0 15px ;
-    }
-    .titulo-card{
-        font-size: 18px;
-    }
-    .descripcion-card{
-        font-size: 15px;
-    }
-    .text-social{
-        font-size: 20px;
-    }
-    .username{
-        font-size: 20px;
-    }
-}
-@media screen and (max-width:1007px){
-    .links{
-        margin: 60px 60px 0 10px ;
-    }
-    .link{
-        font-size: 12px;
-    }
-    .img-social{
-        padding: 20px;
-        font-size: 60px;
-    }
-}
-@media screen and (max-width:922px){
-    .links{
-        margin: 60px 40px 0 10px ;
-    }
-    .productos{
-        height: auto;
-        padding-bottom: 40px;
-    }
-    .contenedor-cards{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .card{
-        width: 220px;
-        height: 380px;
-        margin: 20px 30px;
-
-    }
-    .boton{
-        font-size: 15px;
-        padding: 15px 40px;
-    }
-    .servicios{
-        height: auto;
-    }
-    .historia-titulo{
-        font-size: 20px;
-    }
-    .historia-text{
-        font-size: 15px;
-    }
-    .img-historia{
-        width: 80%;
-    }
-    .social{
-        height: auto;
-        padding-bottom: 40px
-    }
-
-}
-@media screen and (max-width:902px){
-    .contenedor-nav{
-        flex-direction: column;
-    }
-    .logo{
-        margin: 20px 0 0 0;
-    }
-    .links{
-        margin: 15px 0 0 0;
-    }
-    .banner-img-contenedor{
-        display: none;
-    }
-    .hero-main{
-        justify-content: center;
-    }
-    .contenedor-slogan{
-        width: 100%;
-        margin: 20px 0 0 0;
-    }
-}
-@media screen and (max-width:889px){
-    .contenedor-redes{
-        margin: 70px 50px;
-    }
-    .historia-text{
-        font-size: 12px;
-    }
-    .img-historia{
-        width: 100%;
-    }
-}
-@media screen and (max-width:774px){
-    .productos{
-        height: auto;
-        padding-bottom: 40px;
-    }
-    .card{
-        width: 250px;
-    }
-    .servicios{
-        height: auto;
-    }
-    .img-servicio{
-        width: 80%;
-    }
-    .servicio-card{
-        height: auto;
-    }
-    .visitarnos-titulo-todos{
-        font-size: 15px;
-    }
-    .visitarnos-text{
-        font-size: 12px;
-    }
-    .poin{
-        font-size: 15px;
-    }
-    .copy{
-        margin: 40px 0 0 0;
-    }
-    .footer{
-        height: auto;
-        padding-bottom: 40px
-    }
-
-
-}
-@media screen and (max-width:774px){
-    .servicios{
-        height: auto;
-    }
-    .servicio-card{
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column-reverse;
-        width: 260px;
-        height: 350px;
-        margin: 10px 10px;
-        padding: 0;
-        
-    }
-    .card-contenido{
-        margin-bottom: 40px;
-    }
-    .text-servicio{
-        margin-bottom: 40px;
-    }
-    .img-servicio{
-        width: 90%;
-        height: 150px;
-        margin:20px 0 0px 25px;
-        object-fit: cover;
-        border-radius: 20px 0px 0px 20px;
-        padding: 0;
-    }
-    .titulo-servicio-card{
-        margin: 20px 0 0 0;
-    }
-    .img-historia{
-        width: 120%;
-    }
-
-    
-    
-}
-@media screen and (max-width:682px){
-    .img-social{
-        padding: 15px;
-        font-size: 50px;
-    }
-    .text-social{
-        font-size: 15px;
-    }
-    .username{
-        font-size: 15px;
-    }
-    .contenedor-redes{
-        margin: 60px 40px;
-    }
-    .img-historia{
-        width: 130%;
-    }
-}
-@media screen and (max-width:678px){
-    .social{
-        height: auto;
-        padding-bottom: 40px
-    }
-    .footer{
-        height: auto;
-        padding-bottom: 40px
-    }
-    .footer-contenedor{
-        flex-direction: column;
-    }
-    .contenedor-footer-card{
-        width: 80%;
-        margin: 0 0 30px 0;
-    
-    }
-    .copy{
-      margin: 0px 0 30px 0;
-    }
-    .redes-titulo{
-        margin: 0 0 10px 0;
-    }
-}
-@media screen and (max-width:544px){
-    
-    .titulo{
-        font-size: 25px;
-    }
-    .text{
-        font-size: 20px;
-    }
-    .social{
-        height: auto;
-        padding-bottom: 40px
-    }
-    .historia{
-        height: auto;
-    }
-    .historia-contenido{
-        flex-direction: column;
-    }
-    .img-historia{
-        width: 80%;
-        margin: 10px 0px 20px 0px;
-        border-radius: 20px;
-    }
-    
-    .historia-text{
-        text-align: center;
-    }
-}
-@media screen and (max-width:472px){
-    .hero{
-        background-position: center;
-        
-    }
-    .link{
-        padding: 5px 10px;
-        margin: 0 4px;
-    }
-    .social-contenedor{
-        flex-direction: column;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .contenedor-redes{
-        margin: 10px 20px;
-    }
-    .social{
-        height: auto;
-        padding-bottom: 40px
-    }
-    .historia{
-        margin: 20px 50px;
-    }
-}
-@media screen and (max-width:472px){
-    .links{
-        text-align: center;
-    }
-    .link{
-        margin: 0px 0px;
-        font-size: 10px;
-    }
-    .link:hover{
-        margin: 0 0;
-        letter-spacing: 3px;
-    }
-    
-
-}
-
