@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-* { margin: 0; padding: 0; }
+* { margin: 0; padding: 0; text-decoration: none; }
 
 /* -------------------------ESTILOS NAV------------------------- */
-.hero { width: 100%; height: 100vh; background-size: cover; background-attachment: fixed; background-position: right; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(32, 207, 255, 0.63)), to(rgba(0, 65, 168, 0.63))), url(banner.jpg); background-image: linear-gradient(to top, rgba(32, 207, 255, 0.63) 0%, rgba(0, 65, 168, 0.63) 100%), url(banner.jpg); }
+.hero { width: 100%; height: 100vh; background-size: cover; background-attachment: fixed; background-position: right; background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(32, 207, 255, 0.733)), to(rgba(0, 65, 168, 0.74))), url(banner.jpg); background-image: linear-gradient(to top, rgba(32, 207, 255, 0.733) 0%, rgba(0, 65, 168, 0.74) 100%), url(banner.jpg); }
 
 .hero-nav { height: 90px; }
 
@@ -41,9 +41,9 @@
 /* -------------------------ESTILOS MAIN PRODUCTOS------------------------- */
 .productos { width: 100%; height: 140vh; background: -webkit-gradient(linear, left bottom, left top, from(#e6e9f0), to(#eef1f5)); background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.titulo { font-family: "Noto Sans", sans-serif; font-weight: 800; font-size: 40px; margin-top: 40px; }
+.titulo { font-family: "Noto Sans", sans-serif; font-weight: 800; font-size: 40px; margin-top: 40px; text-align: center; }
 
-.text { font-family: "Noto Sans", sans-serif; font-weight: 600; font-size: 30px; margin-top: 20px; }
+.text { font-family: "Noto Sans", sans-serif; font-weight: 600; font-size: 30px; margin-top: 20px; text-align: center; }
 
 .contenedor-cards { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; margin: 50px 50px 0 30px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 80%; }
 
@@ -62,7 +62,7 @@
 .boton:hover { border: 3px solid #eef1f5; background: -webkit-gradient(linear, left bottom, left top, from(#00c6fb), to(#0042A9)); background: linear-gradient(to top, #00c6fb 0%, #0042A9 100%); -webkit-box-shadow: 0 0 35px #00c6fb; box-shadow: 0 0 35px #00c6fb; letter-spacing: 4px; margin: 80px 0 0 0; color: #ffffff; }
 
 /* ----------------------ESTILOS MAIN SERVICIOS---------------------- */
-.servicios { background: -webkit-gradient(linear, left bottom, left top, from(#00c6fb), to(#0042A9)); background: linear-gradient(to top, #00c6fb 0%, #0042A9 100%); width: 100%; height: 210vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.servicios { background: -webkit-gradient(linear, left bottom, left top, from(#00c6fb), to(#0042A9)); background: linear-gradient(to top, #00c6fb 0%, #0042A9 100%); width: 100%; height: 210vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: 0; }
 
 .text-servicio { color: #ffffff; text-align: center; margin: 40px 0 20px 0; }
 
@@ -80,7 +80,46 @@
 
 .img-servicio { width: 60%; height: 180px; -o-object-fit: cover; object-fit: cover; margin: 0 -100px 0 50px; border-radius: 20px 0px 0px 20px; }
 
-.boton2 { color: #eef1f5; border: 3px solid #eef1f5; }
+.boton2 { color: #eef1f5; border: 3px solid #eef1f5; margin: 50px 0 0 0; }
 
-.boton2:hover { color: #0042A9; border: 3px solid #0042A9; -webkit-box-shadow: 0 0 35px #eef1f5; box-shadow: 0 0 35px #eef1f5; background: -webkit-gradient(linear, left bottom, left top, from(#e6e9f0), to(#eef1f5)); background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); }
+.boton2:hover { color: #0042A9; border: 3px solid #0042A9; -webkit-box-shadow: 0 0 50px #eef1f5; box-shadow: 0 0 50px #eef1f5; background: -webkit-gradient(linear, left bottom, left top, from(#e6e9f0), to(#eef1f5)); background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); margin: 50px 0 0 0; }
+
+/***********************ESTILOS SOCIAL***********************/
+.social { background: -webkit-gradient(linear, left bottom, left top, from(#e6e9f0), to(#eef1f5)); background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); width: 100%; height: 140vh; margin: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.social-contenedor { display: inherit; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; width: 100%; }
+
+.contenedor-redes { display: inherit; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 80px; }
+
+/* .contenedor-img-social{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: $gradiente-principal;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 17px 31px 41px 0px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    transition: 0.5s;
+} */
+.img-social { font-size: 80px; color: #ffffff; padding: 25px; border-radius: 100%; background: -webkit-gradient(linear, left bottom, left top, from(#00c6fb), to(#0042A9)); background: linear-gradient(to top, #00c6fb 0%, #0042A9 100%); -webkit-box-shadow: 17px 31px 41px 0px rgba(0, 0, 0, 0.2); box-shadow: 17px 31px 41px 0px rgba(0, 0, 0, 0.2); border: 3px solid #ffffff; text-transform: uppercase; -webkit-transition: 0.5s; transition: 0.5s; }
+
+.text-social { margin: 0 0 30px 0; color: #000000; font-family: "Noto Sans", sans-serif; }
+
+.username { margin: 20px 0 0 0; color: #000000; font-family: "Noto Sans", sans-serif; }
+
+.img-social:hover { color: #0042A9; border: 3px solid #0042A9; -webkit-box-shadow: 0 0 50px #00c5fb; box-shadow: 0 0 50px #00c5fb; background: -webkit-gradient(linear, left bottom, left top, from(#e6e9f0), to(#eef1f5)); background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); }
+
+.historia { width: 80%; height: 170px; background: -webkit-gradient(linear, left bottom, left top, from(#00c6fb), to(#0042A9)); background: linear-gradient(to top, #00c6fb 0%, #0042A9 100%); display: inherit; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-shadow: 15px 15px 17px -3px rgba(0, 0, 0, 0.2); box-shadow: 15px 15px 17px -3px rgba(0, 0, 0, 0.2); border-radius: 20px; -webkit-transition: 0.5s; transition: 0.5s; }
+
+.historia:hover { -webkit-box-shadow: 0 0 40px  #0042A9; box-shadow: 0 0 40px  #0042A9; }
+
+.historia-contenido { display: inherit; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
+
+.historia-titulo { width: 100%; color: #ffffff; font-family: "Noto Sans", sans-serif; margin: 10px 0 0px 40px; text-align: left; }
+
+.historia-text { color: #ffffff; font-family: "Noto Sans", sans-serif; margin: 10px 0 0px 20px; text-align: left; }
+
+.img-historia { width: 50%; height: 100px; -o-object-fit: cover; object-fit: cover; border-radius: 20px 0px 0px 20px; }
 /*# sourceMappingURL=main.css.map */
