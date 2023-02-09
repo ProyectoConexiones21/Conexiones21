@@ -203,7 +203,8 @@
   .links { margin: 15px 0 0 0; }
   .banner-img-contenedor { display: none; }
   .hero-main { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
-  .contenedor-slogan { width: 100%; margin: 20px 0 0 0; } }
+  .contenedor-slogan { width: 100%; margin: 20px 0 0 0; }
+  .boton { font-size: 12px; } }
 
 @media screen and (max-width: 889px) { .contenedor-redes { margin: 70px 50px; }
   .historia-text { font-size: 12px; }
@@ -247,7 +248,8 @@
   .historia { height: auto; }
   .historia-contenido { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   .img-historia { width: 80%; margin: 10px 0px 20px 0px; border-radius: 20px; }
-  .historia-text { text-align: center; } }
+  .historia-text { text-align: center; }
+  .boton { font-size: 10px; } }
 
 @media screen and (max-width: 472px) { .hero { background-position: center; }
   .link { padding: 5px 10px; margin: 0 4px; }
