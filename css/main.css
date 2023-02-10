@@ -256,7 +256,8 @@
   .social-contenedor { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-top: 20px; margin-bottom: 20px; }
   .contenedor-redes { margin: 10px 20px; }
   .social { height: auto; padding-bottom: 40px; }
-  .historia { margin: 20px 50px; } }
+  .historia { margin: 20px 50px; }
+  .descripcion-card { font-size: 12px; } }
 
 @media screen and (max-width: 472px) { .links { text-align: center; }
   .link { margin: 0px 0px; font-size: 10px; }
