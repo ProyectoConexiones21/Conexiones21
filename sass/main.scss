@@ -175,7 +175,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
     flex-direction: column;
     background: $gradiente-principal;
     width: 25%;
-    height: 390px;
+    height: 400px;
     margin: 0 30px;
     padding: 0 15px;
     border-radius: 20px;
@@ -190,7 +190,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
 .titulo-card{
     color: #ffffff;
     text-align: center;
-    margin: 20px 30px 0 30px ;
+    margin: 30px 0px 20PX 0px ;
     font-size: 20px;
     font-family: $fuente-principal;
     font-weight: 600;
@@ -199,10 +199,12 @@ $fuente-secundaria: 'Dancing Script', cursive;
 .descripcion-card{
     color: #ffffff;
     text-align: center;
-    margin: 20px 30px 0 30px ;
-    font-size: 20px;
+    margin: 20px 10px 30px 10px ;
+    font-size: 15px;
     font-family: $fuente-principal;
     font-weight: 600;
+    text-align: justify;
+    text-indent: 10px
 }
 
 .boton{

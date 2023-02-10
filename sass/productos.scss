@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+$gradiente-principal: linear-gradient(to top, #00c6fb 0%, #0042A9 100%);
+$gradiente-secundario: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+$gradiente-banner: linear-gradient(to top, rgba(32, 207, 255, 0.733) 0%, hsla(217, 100%, 33%, 0.74) 100%);
+$gradiente-servicio:  linear-gradient(to top, hsla(205, 100%, 42%, 0.65) 0%, hsla(209, 100%, 50%, 0.644) 100%);
+$fuente-principal: 'Noto Sans', sans-serif;
+$fuente-secundaria: 'Dancing Script', cursive;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.producto-venta{
+    display: flex;
+    width: 90%;
+    height: 100vh;
+}
+.contenedor-img{
+    width: 50%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+
+}
+.caracteristicas{
+    width: 50%;
+    display: inherit;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-producto-venta{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 15px 15px 17px -3px rgba(0,0,0,0.2);
+}
+
+.text-producto-venta{
+    text-align: justify;
+    margin: 0 0 15px 100px;
+    font-family: $fuente-principal;
+    font-size: 15px;
+    font-weight: 600;
+}
+.titulo-caracteristicas{
+    margin: 0 0 20px 150px;
+    font-family: $fuente-principal;
+    font-size: 25px;
+    font-weight: 800;
+}
+.precio{
+    display: inline;
+    margin: 0 0 20px 100px;
+    font-family: $fuente-principal;
+    border-bottom: 3px solid #0042A9 ;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+/*------------------------ESTILOS RESPONSIVE------------------------*/
+@media screen and (max-width:1237px){
+    .producto-venta{
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .img-producto-venta{
+        height: auto;
+        
+    }
+    .contenedor-img{
+        height: auto;
+    }
+    .caracteristicas{
+        height: auto;
+    }
+    .titulo-caracteristicas{
+        font-size: 20px;
+    }
+    .text-producto-venta{
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width:1039px){
+    .img-producto-venta{
+        height: auto;
+    }
+
+}
+@media screen and (max-width:810px){
+    .text-producto-venta{
+        font-size: 15px;
+    }
+    .producto-venta{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor-img{
+        width: 70%;
+    }
+    .img-producto-venta{
+        height: 300px;
+    }
+    .caracteristicas{
+        margin: 40px 0 0 0 ;
+        width: 70%;
+    }
+    .text-producto-venta{
+        margin: 0 0 15px 0px;
+    }
+    .titulo-caracteristicas{
+        margin: 0 0 15px 0px;
+        text-align: center;
+    }
+    .precio{
+        margin: 20px 0 15px 0px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:504px){
+    .img-producto-venta{
+        width: 300px;
+    }
+}
+@media screen and (max-width:400px){
+    .text-producto-venta{
+    font-size: 13px;
+    }
+}
+@media screen and (max-width:300px){
+    .img-producto-venta{
+        width: 250px;
+    }
+    .text-producto-venta{
+        font-size: 11px;
+    }
+}

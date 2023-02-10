@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+$gradiente-principal: linear-gradient(to top, #00c6fb 0%, #0042A9 100%);
+$gradiente-secundario: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+$gradiente-banner: linear-gradient(to top, rgba(32, 207, 255, 0.733) 0%, hsla(217, 100%, 33%, 0.74) 100%);
+$gradiente-servicio:  linear-gradient(to top, hsla(205, 100%, 42%, 0.65) 0%, hsla(209, 100%, 50%, 0.644) 100%);
+$fuente-principal: 'Noto Sans', sans-serif;
+$fuente-secundaria: 'Dancing Script', cursive;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.hola{
+  background: $gradiente-secundario;
+  width: 100%;
+  height: 100vh;
+
+}
+.img-historia-grande{
+    width: 500px;
+    height: 200px;
+    margin: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 15px 15px 17px -3px rgba(0,0,0,0.2);
+
+}
+.nuestra-historia{
+    width: 90%;
+}
+.historia-grande-text{
+    text-align: justify;
+    font-family: $fuente-principal;
+    margin: 20px 0 40px 0;
+    font-weight: 600;
+    text-indent: 70px;
+}
+/*---------------------ESTILOS RESPONSIVE---------------------*/
+@media screen and (max-width:543px ) {
+    .historia-grande-text{
+        font-size: 15px;
+    }
+
+    .img-historia-grande{
+        width: 400px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:423px ){
+    .img-historia-grande{
+        width: 300px;
+        height: 150px ;
+    }
+}
+@media screen and (max-width:321px ){
+    .img-historia-grande{
+        width: 250px;
+        height: 150px;
+    }
+}
