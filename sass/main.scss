@@ -154,7 +154,8 @@ $fuente-secundaria: 'Dancing Script', cursive;
 .contenedor-cards{
     display: flex;
     flex-direction: row;
-    margin: 50px 50px 0 30px;
+    flex-wrap: wrap;
+    margin: 50px 50px 30px 50px;
     align-items: center;
     justify-content: space-between;
     width: 80%;
@@ -176,7 +177,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
     background: $gradiente-principal;
     width: 25%;
     height: 400px;
-    margin: 0 30px;
+    margin: 0 30px 30px 0;
     padding: 0 15px;
     border-radius: 20px;
     box-shadow: 15px 15px 17px -3px rgba(0,0,0,0.2);
@@ -191,7 +192,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
     color: #ffffff;
     text-align: center;
     margin: 30px 0px 20PX 0px ;
-    font-size: 20px;
+    font-size: 18px;
     font-family: $fuente-principal;
     font-weight: 600;
 }
@@ -200,7 +201,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
     color: #ffffff;
     text-align: center;
     margin: 20px 10px 30px 10px ;
-    font-size: 15px;
+    font-size: 13px;
     font-family: $fuente-principal;
     font-weight: 600;
     text-align: justify;
@@ -260,8 +261,9 @@ $fuente-secundaria: 'Dancing Script', cursive;
     align-items: center;
     justify-content: space-between;
     margin: 40px 0;
-    padding: 40px 100px;
-    width: 50%;
+    padding: 50px 0px; 
+    width: 70%;
+    height: 200px;
     box-shadow:  24px 30px 67px -3px rgba(0,0,0,0.2);
     text-decoration: none;
     border-radius: 20px;
@@ -272,25 +274,39 @@ $fuente-secundaria: 'Dancing Script', cursive;
 }
 
 .card-contenido{
-    width: 100%;
+    width:40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 40px ;
+    
 }
 
 .titulo-servicio-card{
     color: #000000;
-    margin: 0px 0 30px 0;
     font-size: 25px;
 }
 .descripcion-servicio{
     color: #000000;
-    margin: 20px 0 10px 0;
-    font-size: 25px;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 20px;
+}
+.servicio-sub{
+    color: #000000;
+    font-size: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: $fuente-principal;
+    font-weight: 600;
+
 }
 
 .img-servicio{
-    width: 60%;
+    width: 40%;
     height: 180px;
     object-fit: cover;
-    margin: 0 -100px 0 50px;
+    margin: 0 0px 0 100px;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -333,7 +349,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 80px;
+    margin: 80px 50px;
 
 }
 
@@ -540,6 +556,12 @@ $fuente-secundaria: 'Dancing Script', cursive;
     .link{
         margin: 0 8px;
     }
+    .hero-main{
+        height: auto;
+    }
+    .contenedor-redes{
+        margin: 80px 60px;
+    }
 }
 @media screen and (max-width:1109px){
     .links{
@@ -634,6 +656,12 @@ $fuente-secundaria: 'Dancing Script', cursive;
         height: auto;
         padding-bottom: 40px
     }
+    .img-servicio{
+        width: 50%;
+    }
+    .card-contenido{
+        width: 60%;
+    }
 
 }
 @media screen and (max-width:902px){
@@ -651,6 +679,7 @@ $fuente-secundaria: 'Dancing Script', cursive;
     }
     .hero-main{
         justify-content: center;
+        height: auto;
     }
     .contenedor-slogan{
         width: 100%;
@@ -659,15 +688,27 @@ $fuente-secundaria: 'Dancing Script', cursive;
     .boton{
         font-size: 12px;
     }
+    .contenedor-slogan{
+        margin-top: 30px;
+    }
 }
 @media screen and (max-width:889px){
     .contenedor-redes{
-        margin: 70px 50px;
+        margin: 70px 30px;
     }
     .historia-text{
         font-size: 12px;
     }
     .img-historia{
+        width: 100%;
+    }
+    .descripcion-card{
+        font-size: 13px;
+    }
+    .img-servicio{
+        width: 100%;
+    }
+    .card-contenido{
         width: 100%;
     }
 }
@@ -678,12 +719,6 @@ $fuente-secundaria: 'Dancing Script', cursive;
     }
     .card{
         width: 250px;
-    }
-    .servicios{
-        height: auto;
-    }
-    .img-servicio{
-        width: 80%;
     }
     .servicio-card{
         height: auto;
@@ -704,10 +739,6 @@ $fuente-secundaria: 'Dancing Script', cursive;
         height: auto;
         padding-bottom: 40px
     }
-
-
-}
-@media screen and (max-width:774px){
     .servicios{
         height: auto;
     }
@@ -716,13 +747,15 @@ $fuente-secundaria: 'Dancing Script', cursive;
         justify-content: space-evenly;
         flex-direction: column-reverse;
         width: 260px;
-        height: 350px;
-        margin: 10px 10px;
-        padding: 0;
+        height: 400px;
+        margin: 20px 10px;
+        padding: 20px 0;
         
     }
     .card-contenido{
         margin-bottom: 40px;
+        width: 80%;
+        padding: 0;
     }
     .text-servicio{
         margin-bottom: 40px;
@@ -730,10 +763,14 @@ $fuente-secundaria: 'Dancing Script', cursive;
     .img-servicio{
         width: 90%;
         height: 150px;
-        margin:20px 0 0px 25px;
+        margin: 20px 0px 0 25px;
         object-fit: cover;
         border-radius: 20px 0px 0px 20px;
         padding: 0;
+    }
+    .servicio-sub{
+        font-size: 12px;
+        margin: 5px;
     }
     .titulo-servicio-card{
         margin: 20px 0 0 0;
@@ -741,9 +778,18 @@ $fuente-secundaria: 'Dancing Script', cursive;
     .img-historia{
         width: 120%;
     }
+    .contenedor-redes{
+        margin: 60px 30px;
 
+    }
+    .username{
+        font-size: 15px;
+    }
+
+   
     
-    
+
+
 }
 @media screen and (max-width:682px){
     .img-social{
@@ -751,9 +797,6 @@ $fuente-secundaria: 'Dancing Script', cursive;
         font-size: 50px;
     }
     .text-social{
-        font-size: 15px;
-    }
-    .username{
         font-size: 15px;
     }
     .contenedor-redes{
@@ -786,6 +829,9 @@ $fuente-secundaria: 'Dancing Script', cursive;
     .redes-titulo{
         margin: 0 0 10px 0;
     }
+    .contenedor-redes{
+        margin: 60px 10px;
+    }
 }
 @media screen and (max-width:544px){
     
@@ -817,6 +863,12 @@ $fuente-secundaria: 'Dancing Script', cursive;
     .boton{
         font-size: 10px;
     }
+    .contenedor-redes{
+        margin: 60px 10px;
+    }
+    .username{
+        font-size: 13px;
+    }
 }
 @media screen and (max-width:472px){
     .hero{
@@ -844,6 +896,9 @@ $fuente-secundaria: 'Dancing Script', cursive;
     }
     .descripcion-card{
         font-size: 12px;
+    }
+    .username{
+        font-size: 15px;
     }
 }
 @media screen and (max-width:472px){

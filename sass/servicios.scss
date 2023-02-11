@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+$gradiente-principal: linear-gradient(to top, #00c6fb 0%, #0042A9 100%);
+$gradiente-secundario: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+$gradiente-banner: linear-gradient(to top, rgba(32, 207, 255, 0.733) 0%, hsla(217, 100%, 33%, 0.74) 100%);
+$gradiente-servicio:  linear-gradient(to top, hsla(205, 100%, 42%, 0.65) 0%, hsla(209, 100%, 50%, 0.644) 100%);
+$fuente-principal: 'Noto Sans', sans-serif;
+$fuente-secundaria: 'Dancing Script', cursive;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.card-modifier{
+    background: $gradiente-secundario;
+}
+.card:hover{
+    box-shadow: 0 0 40px  #ffffff;
+}
+.titulo-modifier{
+    color: #000000;
+}
+.descripcion-modifier{
+    color: #000000;
+}
