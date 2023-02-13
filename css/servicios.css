@@ -8,5 +8,7 @@
 
 .titulo-modifier { color: #000000; }
 
-.descripcion-modifier { color: #000000; }
+.descripcion-modifier { color: #000000; font-size: 13px; }
+
+@media screen and (max-width: 1171px) { .descripcion-modifier { font-size: 10px; } }
 /*# sourceMappingURL=servicios.css.map */

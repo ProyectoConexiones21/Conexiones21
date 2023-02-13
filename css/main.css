@@ -57,7 +57,7 @@
 
 .card-img { width: 100%; height: 150px; margin: 20px 0 0 30px; -o-object-fit: cover; object-fit: cover; border-radius: 20px 0px 0px 20px; }
 
-.card { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; background: -webkit-gradient(linear, left bottom, left top, from(#00c6fb), to(#0042A9)); background: linear-gradient(to top, #00c6fb 0%, #0042A9 100%); width: 25%; height: 400px; margin: 0 30px 30px 0; padding: 0 15px; border-radius: 20px; -webkit-box-shadow: 15px 15px 17px -3px rgba(0, 0, 0, 0.2); box-shadow: 15px 15px 17px -3px rgba(0, 0, 0, 0.2); text-decoration: none; -webkit-transition: 0.5s; transition: 0.5s; }
+.card { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; background: -webkit-gradient(linear, left bottom, left top, from(#00c6fb), to(#0042A9)); background: linear-gradient(to top, #00c6fb 0%, #0042A9 100%); width: 25%; height: 450px; margin: 0 30px 30px 0; padding: 0 15px; border-radius: 20px; -webkit-box-shadow: 15px 15px 17px -3px rgba(0, 0, 0, 0.2); box-shadow: 15px 15px 17px -3px rgba(0, 0, 0, 0.2); text-decoration: none; -webkit-transition: 0.5s; transition: 0.5s; }
 
 .card:hover { -webkit-box-shadow: 0 0 40px  #0042A9; box-shadow: 0 0 40px  #0042A9; }
 
@@ -202,7 +202,7 @@
 @media screen and (max-width: 922px) { .links { margin: 60px 40px 0 10px; }
   .productos { height: auto; padding-bottom: 40px; }
   .contenedor-cards { -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
-  .card { width: 220px; height: 380px; margin: 20px 30px; }
+  .card { width: 220px; height: 450px; margin: 20px 30px; }
   .boton { font-size: 15px; padding: 15px 40px; }
   .servicios { height: auto; }
   .historia-titulo { font-size: 20px; }
@@ -229,7 +229,7 @@
   .card-contenido { width: 100%; } }
 
 @media screen and (max-width: 774px) { .productos { height: auto; padding-bottom: 40px; }
-  .card { width: 250px; }
+  .card { width: 250px; height: 400px; }
   .servicio-card { height: auto; }
   .visitarnos-titulo-todos { font-size: 15px; }
   .visitarnos-text { font-size: 12px; }
