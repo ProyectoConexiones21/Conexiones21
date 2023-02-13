@@ -148,6 +148,10 @@ $fuente-secundaria: 'Dancing Script', cursive;
 .img-float:hover{
     box-shadow: 0 0 40px  #00c5fb;
 }
+.img-flecha{
+    font-size: 35px;
+    color: #000000;
+}
 
 .wave{
     height: 110px;
@@ -814,7 +818,9 @@ $fuente-secundaria: 'Dancing Script', cursive;
         font-size: 15px;
     }
 
-   
+   .boton-float{
+       display: none;
+   }
     
 
 
