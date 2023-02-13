@@ -121,9 +121,37 @@ $fuente-secundaria: 'Dancing Script', cursive;
   
     
 }
+.boton-float{
+    display: flex;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.img-float{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background: #00c5fb;
+    padding: 20px;
+    border-radius: 100%;
+    margin: 20px;
+    z-index: 100000;
+    box-shadow: 15px 15px 17px -3px rgba(0,0,0,0.2);
+    transition: 0.5s;
+
+}
+.img-float:hover{
+    box-shadow: 0 0 40px  #00c5fb;
+}
 
 .wave{
     height: 110px;
+
 }
 /* -------------------------ESTILOS MAIN PRODUCTOS------------------------- */
 

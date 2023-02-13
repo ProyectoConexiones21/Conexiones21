@@ -36,6 +36,12 @@
 
 .banner-img { width: 340px; }
 
+.boton-float { display: -webkit-box; display: -ms-flexbox; display: flex; width: auto; height: auto; z-index: 1; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+
+.img-float { display: inherit; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: fixed; width: 15px; height: 15px; background: #00c5fb; padding: 20px; border-radius: 100%; margin: 20px; z-index: 100000; -webkit-box-shadow: 15px 15px 17px -3px rgba(0, 0, 0, 0.2); box-shadow: 15px 15px 17px -3px rgba(0, 0, 0, 0.2); -webkit-transition: 0.5s; transition: 0.5s; }
+
+.img-float:hover { -webkit-box-shadow: 0 0 40px  #00c5fb; box-shadow: 0 0 40px  #00c5fb; }
+
 .wave { height: 110px; }
 
 /* -------------------------ESTILOS MAIN PRODUCTOS------------------------- */
